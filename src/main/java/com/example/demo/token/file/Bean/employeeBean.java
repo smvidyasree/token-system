@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 @JsonInclude(value = Include.NON_NULL)
 public class employeeBean {
 //	private int id;
-	private String username;
+	private String username
 	private String fullname;
 	private String password;
 	private String emailid;
